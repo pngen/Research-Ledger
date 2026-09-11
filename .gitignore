@@ -1,0 +1,47 @@
+# Build outputs
+build/
+build-*/
+out/
+install/
+_consumer/
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Visual Studio / editors
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+*.aps
+*.ncb
+*.opendb
+
+# Runtime artifacts
+*.rls
+*.rlsnap
+*.log
+*.tmp
+rl_state/
+temp_state/
+sanitizer*/
+asan*/
